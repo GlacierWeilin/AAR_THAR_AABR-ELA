@@ -1,8 +1,8 @@
 # AAR_THAR_AABR-ELA
 This repository contains the code used to reproduce the simulations, data analysis, and figures of
-- Yang, W., Mackintosh, A.N., Chu, W., & Li, Y., (2025): Global Glacier Climate Disequilibrium: Committed Mass Loss and Sea Level Rise.
+- Yang, W., Mackintosh, A.N., Cooper, E-L., Li, Y., Jone, R.S., Chu, W., and Tielidze, L.G., (2025): A global estimate of Equilibrium-Line Altitude ratios for improved glacier-climate reconstructions.
 
-We quantify global glacier disequilibrium in the present-day climate (2014-2023) using a parameterization approach, leveraging global ice thickness, geodetic mass balance, debris cover, and frontal ablation data. This approach estimates the area perturbation required to bring the present-day glacier into equilibrium based on a fractional disequilibrium ratio of the current glacier accumulation area ratio to its equilibrium value. The mass loss for the adjustment can then be estimated using area-volume scaling. All simulations are based on a hybrid of [Python Glacier Evolution Model (PyGEM v0.2.5)](https://github.com/PyGEM-Community/PyGEM/releases/tag/v0.2.0), developed by David Rounce and collaborators, and [Open Global Glacier Model (OGGM v1.6.0)](https://github.com/OGGM/oggm/releases/tag/v1.6.0), developed by the OGGM community.
+We provide the estimates of AAR, THAR, and AABR ratios for nearlly all glaciers on Earth under steady-state conditions (AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub>) using a hybrid of [Python Glacier Evolution Model (PyGEM v0.2.5)](https://github.com/PyGEM-Community/PyGEM/releases/tag/v0.2.0), developed by David Rounce and collaborators, and [Open Global Glacier Model (OGGM v1.6.0)](https://github.com/OGGM/oggm/releases/tag/v1.6.0), developed by the OGGM community. Glacier AAR<sub>0</sub> was calculated by completing linear regression of simulated annual mass balances and AARs from 1995 to 2014. THAR<sub>0</sub> and AABR<sub>0</sub> were estimated for each glacier based on AAR0 and the glacier geometry from the Randolph Glacier Inventory 6.2 
 
 The files include:
 - [`README.md`](README.md) — Description of the repository
