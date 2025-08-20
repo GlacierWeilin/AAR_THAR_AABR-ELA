@@ -10,7 +10,7 @@ The files include:
 - ['code'](code) - The documentation of the code for running simulations, analyzing the data, and creating figures and tables.
 
 ## Overview of the code
-- Run the PyGEM script `run_simulation.py` and `pygem_input.py` to calculate . <br>
+- Run the PyGEM script `run_simulation.py` and `pygem_input.py`. <br>
   This script replaces the original `run_simulation` file in PyGEM and automatically performs glacier AAR<sub>0</sub> calculations using linear regression and steady-state assumption.
 
 - `compile_pygem_results.py` and `process_errors.py` <br>
@@ -29,7 +29,7 @@ The files include:
   Calculate glacier AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> based on the WGMS observations.
 
 - `results_equal_count_bins.py`, `classification.py`, and `GUI_for_paleoglacier.py`. <br>
-  Analyze the results based on RGI regions, glacier area, and 0.5°×0.5° grid resolution.
+  Create a user-friendly tool that estimates AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> values for paleoglaciers based on key glacier-specific and climate-topographic variables.
 
 - `Figure_*.py`. <br>
   Create the figures.
