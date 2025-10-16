@@ -28,7 +28,7 @@ The files include:
 - `wgms_ELA.py` and `run_wgms_AAR.ipynb.` <br>
   Calculate glacier AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> based on the WGMS observations.
 
-- `Loibl_snowline_ELA.py`, `Loibl_AAR.ipynb.` and `run_Loibl_AAR.ipynb.` <br>
+- `Loibl_snowline_ELA.py`, `Loibl_AAR.ipynb.` and `run_Loibl_AAR.py.` <br>
   Calculate glacier AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> based on the transient snowline altitude observations.
 
 - `results_equal_count_bins.py`, `classification.py`, and `GUI_for_paleoglacier.py`. <br>
