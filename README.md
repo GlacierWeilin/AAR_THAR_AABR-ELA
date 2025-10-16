@@ -1,6 +1,6 @@
 # AAR_THAR_AABR-ELA
 This repository contains the code used to reproduce the simulations, data analysis, and figures of
-- Yang, W., Mackintosh, A.N., Cooper, E-L., Li, Y., Jone, R.S., Chu, W., and Tielidze, L.G., (2025): A global estimate of Equilibrium-Line Altitude ratios for improved glacier-climate reconstructions.
+- Yang, W., Mackintosh, A.N., Cooper, E-L., Li, Y., Jone, R.S., Chu, W., and Tielidze, L.G., (2025): Global estimates of glacier Equilibrium-Line Altitude ratios for enhanced paleoclimate reconstructions.
 
 We provide the estimates of AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> ratios for nearlly all glaciers on Earth using a hybrid of [Python Glacier Evolution Model (PyGEM v0.2.5)](https://github.com/PyGEM-Community/PyGEM/releases/tag/v0.2.0), developed by David Rounce and collaborators, and [Open Global Glacier Model (OGGM v1.6.0)](https://github.com/OGGM/oggm/releases/tag/v1.6.0), developed by the OGGM community. Glacier AAR<sub>0</sub> was calculated by completing linear regression of simulated annual mass balances and AARs from 1995 to 2014. THAR<sub>0</sub> and AABR<sub>0</sub> were estimated for each glacier based on AAR<sub>0</sub> and the glacier geometry from the Randolph Glacier Inventory 6.2.
 
@@ -19,7 +19,7 @@ The files include:
 - `run_oggm.py`. <br>
   Run oggm to calculate glacier ELA<sub>0</sub>, THAR<sub>0</sub> and AABR<sub>0</sub> based on AAR<sub>0</sub> and the glacier geometry.
 
-- `compile_oggm_results.ipynb`, `compile_results.ipynb`, `compile_median_mad.py` and `compile_glacier_statistics.py`. <br>
+- `compile_oggm_results.ipynb`, `compile_results.ipynb`, `compile_median_mad.py`, `compile_Loibl_results.ipynb` and `compile_glacier_statistics.py`. <br>
   Compile the output of the OGGM runs of several gdirs into one file.
   
 - `process_region.py`, and `process_griddata.py`. <br>
@@ -27,6 +27,9 @@ The files include:
 
 - `wgms_ELA.py` and `run_wgms_AAR.ipynb.` <br>
   Calculate glacier AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> based on the WGMS observations.
+
+- `Loibl_snowline_ELA.py`, `Loibl_AAR.ipynb.` and `run_Loibl_AAR.ipynb.` <br>
+  Calculate glacier AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> based on the transient snowline altitude observations.
 
 - `results_equal_count_bins.py`, `classification.py`, and `GUI_for_paleoglacier.py`. <br>
   Create a user-friendly tool that estimates AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> values for paleoglaciers based on key glacier-specific and climate-topographic variables.
