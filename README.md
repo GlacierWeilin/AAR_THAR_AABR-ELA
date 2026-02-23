@@ -6,7 +6,7 @@ We provide the estimates of AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</s
 
 The files include:
 - [`README.md`](README.md) — Description of the repository
-- ['data'](data) - The documentation of the data. Download the large data files from [Google Drive](https://drive.google.com/drive/folders/1S8amtzRIEJkixYB_J5qbf-9YW0iHRWg2?usp=sharing).
+- ['data'](data) - The documentation of the data. Download the large data files from [Zenodo](https://doi.org/10.5281/zenodo.18737031).
 - ['code'](code) - The documentation of the code for running simulations, analyzing the data, and creating figures and tables.
 
 ## Overview of the code
