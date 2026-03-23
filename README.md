@@ -42,9 +42,9 @@ The files include:
   Create the figures.
 
 ## Overview of the data
-- Results calculated using the Linear Regression method are named with the prefix intercept_*, for example, intercept_AAR.
-  Results calculated using the Steady-State Assumption method are named with the prefix steady_*, for example, steady_AAR.
-  The median values derived from both methods are named with the prefix compile_*.
+- Results calculated using the Linear Regression method are named with the prefix `intercept_*`, for example, `intercept_AAR`.
+  Results calculated using the Steady-State Assumption method are named with the prefix `steady_*`, for example, `steady_AAR`.
+  The median values derived from both methods are named with the prefix `compile_*`.
 
 - Outputs for PyGEM calibration: `/sims`
 
