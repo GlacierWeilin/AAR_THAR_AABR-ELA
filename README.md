@@ -39,6 +39,25 @@ The files include:
 - `Figure_*.py`. <br>
   Create the figures.
 
+## Overview of the data
+- Outputs for PyGEM calibration: /sims
+
+- AAR<sub>0</sub> of global modern glaciers output from a hybrid model combining PyGEM and OGGM: results_AAR_*.nc
+
+- ELA<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> of global modern glaciers (also included in the same files as the results in results_AAR_*.nc): results_all_mad_*.nc
+
+- Global and regional AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> based on the simulation results: results_region.nc
+
+- Spatial distribution of the grid (0.5° × 0.5°) AAR<sub>0</sub>, (b) THAR<sub>0</sub>, and (c) AABR<sub>0</sub>: results_0.5.nc.
+
+- Estimations based on WGMS observations: /DOI-WGMS-FoG-2024-01, WGMS*.csv, results_comparison.nc.
+
+- Estimations based on snowline observations: Loibl*.csv, Loibl*.nc, MB_1995_2014_Dussaillant.csv, results_comparison.nc.
+
+- Compiled glacier statistics from RGI 6.2 and ERA5: /ori, /summary, glacier_statistics.nc
+
+- Classificationtree (also the inputs of GERC if you don't use the online app): /classificationtree.
+
 ## Contact
 
 If you have any questions, please contact:
