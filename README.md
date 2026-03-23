@@ -42,7 +42,7 @@ The files include:
 ## Overview of the data
 - Outputs for PyGEM calibration: /sims
 
-- AAR<sub>0</sub> of global modern glaciers output from a hybrid model combining PyGEM and OGGM: results_AAR_*.nc
+- AAR<sub>0</sub> of global modern glaciers output from a hybrid model of PyGEM and OGGM: results_AAR_*.nc
 
 - ELA<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> of global modern glaciers: results_all_mad_*.nc
   (also included in the same files as the results in results_AAR_*.nc)
