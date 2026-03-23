@@ -46,9 +46,9 @@ The files include:
 
 - AAR<sub>0</sub> of global modern glaciers output from a hybrid model of PyGEM and OGGM: results_AAR_*.nc
 
-- ELA<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> of global modern glaciers: results_all_mad_*.nc
-  (also included in the same files as the results in results_AAR_*.nc)
-
+- AAR<sub>0</sub>, ELA<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> of global modern glaciers: results_all_mad_*.nc
+  For users who are not familiar with processing NetCDF files or code, the main corresponding values for modern glaciers can be   directly accessed in the CSV files located in /results_all_mad_debriscalving_csv.
+  
 - Global and regional AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> based on the simulation results: results_region.nc
 
 - Spatial distribution of the grid (0.5° × 0.5°) AAR<sub>0</sub>, (b) THAR<sub>0</sub>, and (c) AABR<sub>0</sub>: results_0.5.nc.
