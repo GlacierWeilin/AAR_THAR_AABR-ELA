@@ -4,7 +4,9 @@ This repository contains the code used to reproduce the simulations, data analys
 
 We provide the estimates of AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> ratios for nearlly all glaciers on Earth using a hybrid of [Python Glacier Evolution Model (PyGEM v0.2.5)](https://github.com/PyGEM-Community/PyGEM/releases/tag/v0.2.0), developed by David Rounce and collaborators, and [Open Global Glacier Model (OGGM v1.6.0)](https://github.com/OGGM/oggm/releases/tag/v1.6.0), developed by the OGGM community. Glacier AAR<sub>0</sub> was calculated by completing linear regression of simulated annual mass balances and AARs from 1995 to 2014. THAR<sub>0</sub> and AABR<sub>0</sub> were estimated for each glacier based on AAR<sub>0</sub> and the glacier geometry from the Randolph Glacier Inventory 6.2.
 
-We also develope a decision-tree-based classification tool, “Glacier ELA Ratio Calculator” (GERC), to estimate AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> values for groups of glaciers with similar characteristics based on key glacier and climate variables. The web-based version of the GERC is available on Streamlit at [Streamlit](https://gercglacier.streamlit.app/).
+We develope a decision-tree-based classification tool, “Glacier ELA Ratio Calculator” (GERC), to estimate AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> values for groups of glaciers with similar characteristics based on key glacier and climate variables. The web-based version of the GERC is available on Streamlit at [Streamlit](https://gercglacier.streamlit.app/).
+
+We also provide the AAR<sub>0</sub>, ELA<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> of global modern glaciers in the NetCDF file “results_all_mad_debriscalving.nc”. However, we still recommend the users to use the more robust estimates at the group level, rather than for individual glaciers.
 
 The files include:
 - [`README.md`](README.md) — Description of the repository
