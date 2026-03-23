@@ -42,24 +42,24 @@ The files include:
   Create the figures.
 
 ## Overview of the data
-- Outputs for PyGEM calibration: /sims
+- Outputs for PyGEM calibration: `/sims`
 
-- AAR<sub>0</sub> of global modern glaciers output from a hybrid model of PyGEM and OGGM: results_AAR_*.nc
+- AAR<sub>0</sub> of global modern glaciers output from a hybrid model of PyGEM and OGGM: `results_AAR_*.nc`.
 
-- AAR<sub>0</sub>, ELA<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> of global modern glaciers: results_all_mad_*.nc
-  For users who are not familiar with processing NetCDF files or code, the main corresponding values for modern glaciers can be   directly accessed in the CSV files located in /results_all_mad_debriscalving_csv.
+- AAR<sub>0</sub>, ELA<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> of global modern glaciers: `results_all_mad_*.nc`.
+  For users who are not familiar with processing NetCDF files or code, the main corresponding values for modern glaciers can be   directly accessed in the CSV files located in `/results_all_mad_debriscalving_csv`.
   
-- Global and regional AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> based on the simulation results: results_region.nc
+- Global and regional AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> based on the simulation results: `results_region.nc`.
 
-- Spatial distribution of the grid (0.5° × 0.5°) AAR<sub>0</sub>, (b) THAR<sub>0</sub>, and (c) AABR<sub>0</sub>: results_0.5.nc.
+- Spatial distribution of the grid (0.5° × 0.5°) AAR<sub>0</sub>, (b) THAR<sub>0</sub>, and (c) AABR<sub>0</sub>: `results_0.5.nc`.
 
-- Estimations based on WGMS observations: /DOI-WGMS-FoG-2024-01, WGMS*.csv, results_comparison.nc.
+- Estimations based on WGMS observations: `/DOI-WGMS-FoG-2024-01`, `WGMS*.csv`, `results_comparison.nc`.
 
-- Estimations based on snowline observations: Loibl*.csv, Loibl*.nc, MB_1995_2014_Dussaillant.csv, results_comparison.nc.
+- Estimations based on snowline observations: `Loibl*.csv`, `Loibl*.nc`, `MB_1995_2014_Dussaillant.csv`, `results_comparison.nc`.
 
-- Compiled glacier statistics from RGI 6.2 and ERA5: /ori, /summary, glacier_statistics.nc
+- Compiled glacier statistics from RGI 6.2 and ERA5: `/ori`, `/summary`, `glacier_statistics.nc`.
 
-- Classificationtree (also the inputs of GERC if you don't use the online app): /classificationtree.
+- Classificationtree (also the inputs of GERC if you don't use the online app): `/classificationtree`.
 
 ## Contact
 
