@@ -6,7 +6,7 @@ We estimate of AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> ratios fo
 
 We then analyze the influence of climatic, topographic, and glacier-intrinsic factors (e.g., glacier types and glacier area) on AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub>, thereby identifying systematic variations in ELA ratios across groups of glaciers with similar characteristics. Based on this analysis, we develope a decision-tree-based classification tool, “Glacier ELA Ratio Calculator” (GERC), to estimate AAR<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> values for groups of glaciers with similar characteristics based on key glacier and climate variables. The web-based version of the GERC is available on [Streamlit](https://gercglacier.streamlit.app/).
 
-Although we also provide the AAR<sub>0</sub>, ELA<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> of global modern glaciers in the NetCDF file “results_all_mad_debriscalving.nc”, we still recommend the users to use "GERC" for the more robust estimates at the group level, rather than for individual glaciers.
+Although we also provide the AAR<sub>0</sub>, ELA<sub>0</sub>, THAR<sub>0</sub>, and AABR<sub>0</sub> of global modern glaciers in the NetCDF file `results_all_mad_debriscalving.nc` and `/results_all_mad_debriscalving_csv`, we still recommend the users to use "GERC" for the more robust estimates at the group level, rather than for individual glaciers.
 
 The files include:
 - [`README.md`](README.md) — Description of the repository
